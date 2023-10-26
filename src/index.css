@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    position: relative; 
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#main{    
+    background: linear-gradient(rgba(37, 5, 49, 0.7), rgba(60, 14, 78, 0.7)), url(assets/mainbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;    
+}
+.footerClass ul li, p{
+    font-weight: normal;
+}
+
+#navbar{
+    background: #191a2b;
+}
+  
