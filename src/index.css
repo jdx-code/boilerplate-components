@@ -7,7 +7,15 @@ body{
     font-family: 'Noto Sans', sans-serif;
 }
 
-#main{    
+#navbar {
+  position: relative;
+  width: 100%;
+  z-index: 1; /* Ensure the Navbar is above the Hero section */
+  /* background: #191a2b; Remove the background color */
+  background: rgba(25, 26, 43, 1); /* Set a transparent background with some opacity */
+}
+
+#main{        
     background: linear-gradient(rgba(37, 5, 49, 0.7), rgba(60, 14, 78, 0.7)), url(assets/mainbg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -18,7 +26,6 @@ body{
     font-weight: normal;
 }
 
-#navbar{
-    background: #191a2b;
+.hero{
+  position: relative;  
 }
-  
