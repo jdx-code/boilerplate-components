@@ -1,0 +1,50 @@
+/* lightbox.css */
+.react-images__view {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-color: rgba(0, 0, 0, 0.85); */
+    opacity: 0.99;
+  }
+  
+  .react-images__carousel {
+    width: 100%;
+    max-width: 800px; /* Adjust the maximum width as needed */
+  }
+  
+  .react-images__gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .react-images__carousel-view {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .react-images__arrow {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+  }
+  
+  .react-images__arrow:disabled {
+    opacity: 0.5;
+  }
+  
+  .react-images__close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    color: #fff;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
